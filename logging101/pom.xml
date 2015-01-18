@@ -1,0 +1,39 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    
+    <groupId>academic.sel2in</groupId>
+    <artifactId>Logging101</artifactId>
+    <name>Logging 101 to test slf4j</name>
+    <version>1</version>    
+    <packaging>pom</packaging>
+    <modules>
+        <module>L1</module>
+        <module>L2</module>
+        <module>JLog</module>
+<!-- 
+        <module>preauth</module>
+        <module>openid</module>
+        <module>ldap</module>
+        <module>cas</module>   
+     	<!~~module>aspectj</module~~>
+ -->
+    </modules>
+    <dependencies>
+<!-- 
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+        </dependency>        
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>jstl</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>taglibs</groupId>
+            <artifactId>standard</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+ -->
+    </dependencies>
+</project>
