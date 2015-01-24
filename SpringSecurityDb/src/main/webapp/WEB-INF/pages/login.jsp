@@ -50,8 +50,12 @@
 			<div class="msg">${msg}</div>
 		</c:if>
 
+Default posts to j_spring_security_check, but changed that to /login1 via form-login 
+		    property <br>
+		    login-processing-url = "/login1"
+		    <br>(View source)
 		<form name='loginForm'
-			action="<c:url value='/j_spring_security_check' />" method='POST'>
+			action="<c:url value='/loginProcess' />" method='POST'>
 
 			<table>
 				<tr>

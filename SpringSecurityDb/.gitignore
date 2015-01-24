@@ -1,1 +1,7 @@
 /target/
+**/target/**
+**/.DS_Store
+**/.settings/**
+**/.project/**
+/.DS_Store
+**/.DS_Store
