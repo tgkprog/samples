@@ -25,4 +25,4 @@ Dont commit other IDE files but .classpath sometimes is useful. If it causes iss
 TODO:
 Cache and utility jsp to evict security and user ids and roles.
 
-Need to : Change from xml to bean impl so that other changes can be made?
+Assignment : Change from xml to bean impl.
