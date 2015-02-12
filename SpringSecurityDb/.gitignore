@@ -1,7 +1,13 @@
 /target/
+.settings
+.project
 **/target/**
 **/.DS_Store
 **/.settings/**
 **/.project/**
 /.DS_Store
 **/.DS_Store
+/.settings/
+/.settings/**
+.settings/
+.settings/**
