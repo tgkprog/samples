@@ -1,6 +1,6 @@
 Spring security with one more level of indirection
 
-So Spring roles map to code Privilesges, but users map to groups of Roles.
+So Spring roles map to code Privileges, but users map to groups of Roles.
 
 Thus business can decide final roles by data base changes (and restart/ reload ) in app.
 
