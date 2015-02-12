@@ -16,7 +16,7 @@ Code:
 
 ````xml
 
-  select username,password, enabled from users where username=?
+  select username, r.prv from user_roles u, roles_privilidges r where username = ? and u.role = r.role
 
 ````
 
